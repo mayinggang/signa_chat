@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+        <Button
+        android:id="@+id/mains"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="点击1"/>
+        <Button
+            android:id="@+id/mains2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="点击2"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/ll_progress_bar_containerp_luyin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="180dp"
+        android:background="#44000000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/a8vse"/>
+
+        <TextView android:id="@+id/tv_pb_operationp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="3dp"
+            android:text="开始录音"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
